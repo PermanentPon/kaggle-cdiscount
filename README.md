@@ -1,6 +1,8 @@
 ## [Cdiscount’s Image Classification Challenge](https://www.kaggle.com/c/cdiscount-image-classification-challenge)
 This is my solution for Cdiscount’s Image Classification Challenge on Kaggle.
 The main idea is to train two models on disjoint data. First model on first images of products and second one on all other images. After that use the resultant output to build a FC net for final classification
+## Result
+Public LB - 151st (top 25%)
 ## Structure
 5 notebooks:
 1. BSON to files - generates folders with images from bson files
